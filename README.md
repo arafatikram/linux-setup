@@ -5,16 +5,15 @@ My personalized Linux desktop setup script for Linux Debian-based distros (mint,
 The script automatically installs: 
 * sshuttle
 * *Completely removes thunderbird*
-* git, curl, pthon3, pyhton-pip, nfs-common (used for network attached storage).
+* git, curl, pthon3, pyhton-pip.
 * zsh (with `oh-my-zsh` and `powerlevel10k` theme)
 * lua 5.1 and z.lua (super fast directory navigation tool)
-* nautilus (with typeahead support)
+* nautilus file manager and its extension
 * openssh-server
-* lm-sensors
 * gnome-tweak-tool
 * prerequisites of Gnome shell extensions
-* WhiteSur GTK+Icon theme.
-* Fonts and Wallapaper, and Plank docker
+* WhiteSur GTK+Icon theme (Nordic theme).
+* Fonts and Wallapaper, and Plank docker with nordic theme
 * And finally upgrades all the packages in the system to the latest versions.
 
 To run the script, simply type `sudo -i` enter your password. Navigate to the directory where you cloned the repository and then run `./script.sh`.
